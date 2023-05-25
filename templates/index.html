@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Report</title>
+</head>
+<body>
+    <h1>Generate Report</h1>
+    <form action="/generate-report" method="POST">
+        <label>Date:</label>
+        <input type="text" name="date"><br><br>
+        <label>Academic Year:</label>
+        <input type="text" name="academicyear"><br><br>
+        <label>Semester:</label>
+        <input type="text" name="semester"><br><br>
+        <label>Name of Event:</label>
+        <input type="text" name="nameofevent"><br><br>
+        <label>Date and Time:</label>
+        <input type="text" name="dateandtime"><br><br>
+        <label>Event Venue:</label>
+        <input type="text" name="eventvenue"><br><br>
+        <label>Organized By:</label>
+        <input type="text" name="organizedby"><br><br>
+        <label>Target Audience:</label>
+        <input type="text" name="targetaudience"><br><br>
+        <label>Resource Person:</label>
+        <input type="text" name="resourceperson"><br><br>
+        <label>Event Contents:</label><br>
+        <textarea name="eventcontents" rows="4" cols="50"></textarea><br><br>
+        <label>Details of Event:</label><br>
+        <textarea name="detailsofevent" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Generate Report">
+    </form>
+</body>
+</html>
